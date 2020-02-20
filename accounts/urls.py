@@ -5,4 +5,5 @@ from accounts.views import SignUpView
 
 urlpatterns = [
     path('sign_up/', SignUpView.as_view(), name='sign_up'),
+    path("/" ,  SignUpView.as_view(), name='logout'),
 ]
